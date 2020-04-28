@@ -11,6 +11,7 @@ public class KlantTest {
 
     @Before
     public void init () {
+
         Werelddeel europa = new Werelddeel("Europa");
         europa.addLand (new Land ("Nederland", "NL"));
         europa.addLand (new Land ("België", "BE"));
